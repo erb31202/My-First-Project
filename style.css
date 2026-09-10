@@ -71,8 +71,8 @@ li {
   align-items: center;
 }
 
-.about,
-.discord,
+#about,
+#discord,
 contact,
 footer {
   padding: 48px 0;
@@ -215,7 +215,7 @@ ul{
   display: none;
 }
 
-.section-description {
+.section__description {
   flex-direction: column;
 }
 
