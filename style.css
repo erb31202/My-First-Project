@@ -73,7 +73,7 @@ li {
 
 #about,
 #discord,
-contact,
+#contact,
 footer {
   padding: 48px 0;
 }
@@ -86,7 +86,7 @@ ABOUT
 
 */
 
-.about{
+#about{
   background-color: #f8ffdc;  
 }
 
@@ -128,7 +128,7 @@ DISCORD
 
 */
 
-.discord {
+#discord {
   background-color: #cefeff;
 }
 
@@ -138,7 +138,7 @@ CONTACT
 
 */
 
-.contact {
+#contact {
   background-color: #dce9ff;
 }
 
@@ -148,6 +148,7 @@ form {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  padding: 0 24px;
 }
 
 input, textarea {
@@ -186,6 +187,7 @@ footer {
 /*SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 @media (max-width: 728px) {
 .row {
+  display: flex;
   flex-direction: column;
 }
 
@@ -227,6 +229,23 @@ ul{
   width: 100%;
 }
 
-.discord .section__description {
-  flex-direction: column-reverse;}
+#discord .section__description {
+  flex-direction: column-reverse;
+}
+
+footer {
+  padding: 48px 24px;
+}
+
+.footer__logo {
+  max-width: 360px;
+
+  .footer__links {
+    padding: 0 4px;
+    font-size: 18px;
+  }
+
+  .footer__links {
+    margin-bottom: 24px;
+  }
 }
